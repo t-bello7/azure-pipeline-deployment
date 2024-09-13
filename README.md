@@ -33,3 +33,18 @@ In this task we would be making use of Azure DevOps tools and technology to auto
 
 12. Follow this [article](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/windows-agent?view=azure-devops) to create a self hosted pipeline agent on your local machine. I'm using a windows machine so I would be creating a self-hosted windows agent
 
+13. Be sure to update your azurepipelines.yml to use the agent pool name
+
+14. I have the pipeline running successfully 
+    ![pipeline-success](./images/job-success.png)
+
+15. Next is to create a service connection to connect the pipeline to azure portal. A service connection is a configuration service that create and stores the connection to external services in Azure DevOps.
+
+16. Go to project settings in azure devOPs. The azure devops has two major setting based on the heirachy - organization settings and project setting. 
+
+18. In project settings, click on service connections tab and create a new service connection
+ I created an azure classic service connection
+    ![service-connection](./images/service-connection.png)
+
+19.
+
